@@ -1,0 +1,14 @@
+{
+  "name": "env-bug",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "prod": "NODE_ENV=production bun index.ts"
+  }
+}
